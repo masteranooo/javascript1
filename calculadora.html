@@ -1,0 +1,74 @@
+<html>
+	<head><title>Calculadora</title></head>
+<body>
+<script language="javascript">
+
+function soma(){
+		var n1 = prompt("Digite 1º numero","");
+		var n2 = prompt("Digite 2º numero","");
+		n1 = parseFloat(n1);
+		n2 = parseFloat(n2);
+		var calculo = n1+n2;
+	document.write("A soma de "+n1+" + "+n2+" é "+calculo);
+	}
+	
+function subtracao(){
+		var n1 = prompt("Digite 1º numero","");
+		var n2 = prompt("Digite 2º numero","");
+		n1 = parseFloat(n1);
+		n2 = parseFloat(n2);
+		var calculo = n1-n2;
+	document.write("A subtração de "+n1+" - "+n2+" é "+calculo); 
+	}
+
+function multiplicacao(){
+		var n1 = prompt("Digite 1º numero","");
+		var n2 = prompt("Digite 2º numero","");
+		n1 = parseFloat(n1);
+		n2 = parseFloat(n2);
+		var calculo = n1*n2;
+	document.write("A multiplicação de "+n1+" * "+n2+" é "+calculo); 
+	}
+
+function divisao(){
+		var n1 = prompt("Digite 1º numero","");
+		var n2 = prompt("Digite 2º numero","");
+		n1 = parseFloat(n1);
+		n2 = parseFloat(n2);
+		var calculo = n1/n2;
+	document.write("A divisão de "+n1+" / "+n2+" é "+calculo); 
+	}
+
+function mod(){
+		var n1 = prompt("Digite 1º numero","");
+		var n2 = prompt("Digite 2º numero","");
+		n1 = parseFloat(n1);
+		n2 = parseFloat(n2);
+		var calculo = n1%n2;
+	document.write("O mod de "+n1+" mod "+n2+" é "+calculo); 
+	}
+
+	function verifica(){
+	alert ("MB");
+}
+
+
+function lindo(){
+	alert ("LINDO");
+}
+</script>
+
+	<h2 align=center>Qual operação deseja utilizar ?
+	<table><tr>
+	<td><input type=button value="Soma" onClick="soma();"></td>
+	<td><input type=button value="Subtração" onClick="subtracao();"></td>
+	<td><input type=button value="Multiplicação" onClick="multiplicacao();"></td>
+	<td><input type=button value="Divisão" onClick="divisao();"></td>
+	<td><input type=button value="Mod" onClick="mod();"></td>
+	</table>
+	</h2>
+	<center><td><input type=button value="Henrique" onClick="verifica();"></td><center>
+	<center><td><input type=button value="Jean" onClick="lindo();"></td><center>
+
+</body>
+</html>
